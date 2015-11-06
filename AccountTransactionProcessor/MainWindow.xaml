@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:ATPViewModel;assembly=ATPViewModel"
         xmlns:converters="clr-namespace:ATPViewModel.Converters;assembly=ATPViewModel"
-        Title="Account Transaction " Height="350" Width="525">
+        Title="Account Transaction" Height="350" Width="525">
     <Window.Resources>
         <converters:StatusValueConverter x:Key="_statusConverter"/>
         <DataTemplate x:Key="_fileDetailTemplate" DataType="{x:Type local:FileDetailViewModel}">
